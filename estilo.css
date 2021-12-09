@@ -1,0 +1,127 @@
+/*HTML*/
+html{
+    font-size:62.5%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #283618;
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+}
+
+h1{
+    color: #fefae0;
+    font-family: 'Outfit', sans-serif;
+    padding: 20px;
+    font-size: 4rem;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    background-color: #dda15e;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#carrito2{
+    height: 50px;
+    width: 50px;
+    background-color:#bc6c25;
+    margin-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:white;
+    border-style: none;
+    width: 1500px;
+    height: auto;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    align-items:center ;
+    background-color:#fefae0;
+    border-color: #283618;
+    border-width: medium;
+    border-style:solid;
+}
+
+h3{
+    color:#283618;
+    font-size: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+b{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+img{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color:#606c38;
+    color: white;
+    border-style:none;
+}
+
+footer #carrito{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    align-items:center ;
+    background-color:#fefae0;
+    border-color: #283618;
+    border-width: medium;
+    border-style:solid;
+}
+
+footer #precio{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: auto;
+    margin: 20px;
+    align-items:center ;
+    background-color:#fefae0;
+    border-color: #283618;
+    border-width: medium;
+    border-style:solid;
+}
